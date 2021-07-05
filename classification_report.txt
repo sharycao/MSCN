@@ -1,32 +1,32 @@
-11.282619486084759 Test loss (%)
-98.27200174331665 Test accuracy (%)
+5.653054698218245 Test loss (%)
+98.45674633979797 Test accuracy (%)
 
-98.07669729263749 Kappa accuracy (%)
-98.27200119429723 Overall accuracy (%)
-97.61746656335907 Average accuracy (%)
+98.27974356517473 Kappa accuracy (%)
+98.45674404717474 Overall accuracy (%)
+98.84690580553897 Average accuracy (%)
 
                            precision    recall  f1-score   support
 
     Brocoli_green_weeds_1       0.98      1.00      0.99      1989
     Brocoli_green_weeds_2       1.00      1.00      1.00      3689
-                   Fallow       0.99      1.00      0.99      1956
-        Fallow_rough_plow       0.97      1.00      0.99      1380
-            Fallow_smooth       1.00      0.98      0.99      2651
+                   Fallow       1.00      1.00      1.00      1956
+        Fallow_rough_plow       0.99      1.00      1.00      1380
+            Fallow_smooth       1.00      1.00      1.00      2651
                   Stubble       1.00      1.00      1.00      3920
                    Celery       1.00      1.00      1.00      3543
-         Grapes_untrained       0.99      0.98      0.99     11158
+         Grapes_untrained       0.94      1.00      0.97     11158
      Soil_vinyard_develop       1.00      1.00      1.00      6141
-Corn_senesced_green_weeds       1.00      0.98      0.99      3245
-      Lettuce_romaine_4wk       1.00      0.96      0.98      1057
-      Lettuce_romaine_5wk       1.00      0.80      0.89      1908
-      Lettuce_romaine_6wk       0.69      0.94      0.79       907
-      Lettuce_romaine_7wk       0.91      1.00      0.95      1059
-        Vinyard_untrained       0.97      0.99      0.98      7196
+Corn_senesced_green_weeds       1.00      1.00      1.00      3245
+      Lettuce_romaine_4wk       1.00      0.97      0.98      1057
+      Lettuce_romaine_5wk       1.00      0.99      0.99      1908
+      Lettuce_romaine_6wk       0.97      0.97      0.97       907
+      Lettuce_romaine_7wk       0.97      1.00      0.99      1059
+        Vinyard_untrained       1.00      0.90      0.95      7196
  Vinyard_vertical_trellis       1.00      1.00      1.00      1789
 
                  accuracy                           0.98     53588
-                macro avg       0.97      0.98      0.97     53588
-             weighted avg       0.98      0.98      0.98     53588
+                macro avg       0.99      0.99      0.99     53588
+             weighted avg       0.99      0.98      0.98     53588
 
 [[ 1989     0     0     0     0     0     0     0     0     0     0     0
       0     0     0     0]
@@ -34,29 +34,29 @@ Corn_senesced_green_weeds       1.00      0.98      0.99      3245
       0     0     0     0]
  [    0     0  1956     0     0     0     0     0     0     0     0     0
       0     0     0     0]
- [    0     0     0  1380     0     0     0     0     0     0     0     0
+ [    0     0     0  1379     1     0     0     0     0     0     0     0
       0     0     0     0]
- [    0     0    25    40  2586     0     0     0     0     0     0     0
+ [    0     0     0     9  2642     0     0     0     0     0     0     0
       0     0     0     0]
  [    0     0     0     0     0  3920     0     0     0     0     0     0
       0     0     0     0]
  [    0     0     0     0     0     0  3543     0     0     0     0     0
       0     0     0     0]
- [    0     0     0     0     0     0     0 10926     0     0     0     0
-      0     0   232     0]
+ [    0     0     0     0     0     0     0 11147     0     0     0     0
+      0     0    11     0]
  [    0     0     0     0     0     0     0     0  6141     0     0     0
       0     0     0     0]
- [    0     0     0     0     0     0     0     0    29  3172     0     0
-      0    44     0     0]
- [   39     0     0     0     0     0     0     0     0     0  1018     0
+ [    0     0     0     0     0     0     0     1     1  3243     0     0
       0     0     0     0]
- [    0     0     0     0     0     0     0     0     0     0     1  1521
-    386     0     0     0]
+ [   33     0     0     0     0     0     0     0     0     0  1023     1
+      0     0     0     0]
+ [    0     0     0     0     0     0     0     0     0     0     0  1884
+     24     0     0     0]
  [    0     0     0     0     0     0     0     0     0     0     0     0
-    851    56     0     0]
+    878    29     0     0]
+ [    0     0     0     0     0     0     0     0     0     2     0     0
+      1  1056     0     0]
+ [    0     0     0     0     0     0     0   714     0     0     0     0
+      0     0  6482     0]
  [    0     0     0     0     0     0     0     0     0     0     0     0
-      1  1058     0     0]
- [    0     0     0     0     0     0     0    71     0     0     0     0
-      0     0  7125     0]
- [    0     0     0     0     0     0     0     0     0     0     0     0
-      2     0     0  1787]]
+      0     0     0  1789]]
